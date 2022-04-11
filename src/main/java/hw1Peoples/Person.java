@@ -12,10 +12,10 @@ public class Person {
 
     //
     public Person(PersonBuilder persB) {
-        this.name = persB.name;
-        this.surname = persB.surname;
-        this.age = persB.age;
-        this.address = persB.address;
+        this.name = persB.getName();
+        this.surname = persB.getSurname();
+        this.age = persB.getAge();
+        this.address = persB.getAddress();
     }
 
 
